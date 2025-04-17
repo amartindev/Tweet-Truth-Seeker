@@ -64,7 +64,7 @@ function parseGeminiResponse(responseText: string): {
 async function extractTweetContent(tweetUrl: string): Promise<string> {
   try {
     const tweetId = tweetUrl.split('/').pop()?.split('?')[0] || '';
-    const response = await fetch(`/api/tweet?id=${tweetId}`);
+    const response = await fetch(`https://x-backend-pearl.vercel.app/api/tweet?id=${tweetId}`);
     const data = await response.json();
     
     return data.text || 'No se pudo obtener el texto del tweet.';
