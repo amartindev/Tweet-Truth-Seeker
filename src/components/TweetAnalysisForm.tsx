@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search, Loader } from 'lucide-react';
 import { useAnalysis } from '../contexts/AnalysisContext';

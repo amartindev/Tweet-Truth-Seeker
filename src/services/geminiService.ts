@@ -101,7 +101,7 @@ Debes evaluar críticamente el tweet proporcionado, considerando fuentes, datos 
 Responde con un análisis claro y proporciona un nivel de confianza en forma de porcentaje (0-100%)
 sobre si el tweet contiene información real o falsa. 
 Tu respuesta debe incluir: 
-1) Si el tweet parece real o falso, 
+1) Si el tweet es real o falso, 
 2) Un nivel de confianza en porcentaje, 
 3) Una explicación de tu evaluación. 
 Para tweets neutros sin afirmaciones verificables, indica que no se puede determinar su veracidad.

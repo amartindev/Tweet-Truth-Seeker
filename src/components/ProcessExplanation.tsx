@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { motion } from 'framer-motion';
 import { FileSearch, Brain, PieChart } from 'lucide-react';
 
