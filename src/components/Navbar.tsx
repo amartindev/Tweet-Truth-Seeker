@@ -29,8 +29,8 @@ const Navbar: React.FC = () => {
 
         <nav className="hidden md:flex items-center gap-8">
           <NavLink to="/">Inicio</NavLink>
-          <NavLink to="/how-it-works">Cómo Funciona</NavLink>
-          <NavLink to="/about">Sobre la IA</NavLink>
+          <NavLink to="#about">Cómo Funciona</NavLink>
+          <NavLink to="#about">Sobre la IA</NavLink>
           <NavLink to="https://amartindev.github.io/">Contacto</NavLink>
         </nav>
 
