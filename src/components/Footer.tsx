@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Github, Mail, Twitter, Heart } from 'lucide-react';
+import { Github, Mail, Twitter, Rabbit } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -43,9 +43,9 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://amartindev.github.io/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                   Contacto
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -54,12 +54,12 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold mb-4 text-gradient">Contacto</h3>
             <div className="space-y-3 text-sm">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/amartindev" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center text-gray-300 hover:text-white transition-colors">
                 <Github className="w-4 h-4 mr-2" />
                 <span>GitHub</span>
               </a>
-              <a href="mailto:info@tweettruthseeker.com"
+              <a href="mailto:amartindev02@gmail.com"
                 className="flex items-center text-gray-300 hover:text-white transition-colors">
                 <Mail className="w-4 h-4 mr-2" />
                 <span>Email</span>
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
           <p>&copy; 2023 TweetTruthSeeker. Todos los derechos reservados.</p>
           <div className="mt-4 md:mt-0 flex items-center">
             <span className="flex items-center">
-              Construido con 
+              Construido por 
               <motion.div
                 animate={{ 
                   scale: [1, 1.2, 1], 
@@ -93,9 +93,10 @@ const Footer: React.FC = () => {
                 }}
                 className="mx-1"
               >
-                <Heart className="w-4 h-4 text-red-500" />
+                <a href="https://amartindev.github.io/" target="_blank" rel="noopener noreferrer">
+                  <Rabbit className="w-4 h-4 text-blue-500" />
+                  </a>
               </motion.div>
-              y Gemini
             </span>
           </div>
         </div>

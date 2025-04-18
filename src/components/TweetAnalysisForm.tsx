@@ -45,7 +45,7 @@ const TweetAnalysisForm: React.FC = () => {
             placeholder="Pega la URL del tweet que deseas verificar..."
             value={tweetUrl}
             onChange={(e) => setTweetUrl(e.target.value)}
-            className="w-full bg-white/10 dark:bg-black/20 backdrop-blur-md border border-white/20 dark:border-white/10 rounded-xl px-4 py-3 pl-12 text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/50"
+            className="w-full bg-white/10 dark:bg-black/20 backdrop-blur-md border border-black/20 dark:border-white/10 rounded-xl px-4 py-3 pl-12 text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/50"
             disabled={isLoading}
           />
           <Search className="absolute left-4 top-3.5 w-5 h-5 text-foreground/50" />

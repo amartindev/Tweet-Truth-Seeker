@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           <NavLink to="/">Inicio</NavLink>
           <NavLink to="/how-it-works">Cómo Funciona</NavLink>
           <NavLink to="/about">Sobre la IA</NavLink>
-          <NavLink to="/contact">Contacto</NavLink>
+          <NavLink to="https://amartindev.github.io/">Contacto</NavLink>
         </nav>
 
         <div className="flex items-center gap-4">
